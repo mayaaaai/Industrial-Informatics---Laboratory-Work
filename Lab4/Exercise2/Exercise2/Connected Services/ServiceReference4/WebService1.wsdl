@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tns="http://tempuri.org/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ConvertTemp">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="temp" type="s:double" />
+            <s:element minOccurs="0" maxOccurs="1" name="unit" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConvertTempResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ConvertTempResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDate">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetDateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDateResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DisplayElements">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="str" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DisplayElementsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DisplayElementsResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ConvertRONtoEURO">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ron" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConvertRONtoEUROResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ConvertRONtoEUROResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ConvertTempSoapIn">
+    <wsdl:part name="parameters" element="tns:ConvertTemp" />
+  </wsdl:message>
+  <wsdl:message name="ConvertTempSoapOut">
+    <wsdl:part name="parameters" element="tns:ConvertTempResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDateSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDate" />
+  </wsdl:message>
+  <wsdl:message name="GetDateSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDateResponse" />
+  </wsdl:message>
+  <wsdl:message name="DisplayElementsSoapIn">
+    <wsdl:part name="parameters" element="tns:DisplayElements" />
+  </wsdl:message>
+  <wsdl:message name="DisplayElementsSoapOut">
+    <wsdl:part name="parameters" element="tns:DisplayElementsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConvertRONtoEUROSoapIn">
+    <wsdl:part name="parameters" element="tns:ConvertRONtoEURO" />
+  </wsdl:message>
+  <wsdl:message name="ConvertRONtoEUROSoapOut">
+    <wsdl:part name="parameters" element="tns:ConvertRONtoEUROResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebService1Soap">
+    <wsdl:operation name="ConvertTemp">
+      <wsdl:input message="tns:ConvertTempSoapIn" />
+      <wsdl:output message="tns:ConvertTempSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDate">
+      <wsdl:input message="tns:GetDateSoapIn" />
+      <wsdl:output message="tns:GetDateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayElements">
+      <wsdl:input message="tns:DisplayElementsSoapIn" />
+      <wsdl:output message="tns:DisplayElementsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConvertRONtoEURO">
+      <wsdl:input message="tns:ConvertRONtoEUROSoapIn" />
+      <wsdl:output message="tns:ConvertRONtoEUROSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebService1Soap" type="tns:WebService1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ConvertTemp">
+      <soap:operation soapAction="http://tempuri.org/ConvertTemp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDate">
+      <soap:operation soapAction="http://tempuri.org/GetDate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayElements">
+      <soap:operation soapAction="http://tempuri.org/DisplayElements" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConvertRONtoEURO">
+      <soap:operation soapAction="http://tempuri.org/ConvertRONtoEURO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebService1Soap12" type="tns:WebService1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ConvertTemp">
+      <soap12:operation soapAction="http://tempuri.org/ConvertTemp" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDate">
+      <soap12:operation soapAction="http://tempuri.org/GetDate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayElements">
+      <soap12:operation soapAction="http://tempuri.org/DisplayElements" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConvertRONtoEURO">
+      <soap12:operation soapAction="http://tempuri.org/ConvertRONtoEURO" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebService1">
+    <wsdl:port name="WebService1Soap" binding="tns:WebService1Soap">
+      <soap:address location="https://localhost:44310/WebService1.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebService1Soap12" binding="tns:WebService1Soap12">
+      <soap12:address location="https://localhost:44310/WebService1.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

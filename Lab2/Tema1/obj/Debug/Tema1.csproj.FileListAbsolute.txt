@@ -1,0 +1,11 @@
+D:\FACULTA\an3\SEM2\II\Lab\Lab2\Tema1\bin\Debug\Tema1.exe.config
+D:\FACULTA\an3\SEM2\II\Lab\Lab2\Tema1\bin\Debug\Tema1.exe
+D:\FACULTA\an3\SEM2\II\Lab\Lab2\Tema1\bin\Debug\Tema1.pdb
+D:\FACULTA\an3\SEM2\II\Lab\Lab2\Tema1\obj\Debug\Tema1.csproj.AssemblyReference.cache
+D:\FACULTA\an3\SEM2\II\Lab\Lab2\Tema1\obj\Debug\Tema1.csproj.SuggestedBindingRedirects.cache
+D:\FACULTA\an3\SEM2\II\Lab\Lab2\Tema1\obj\Debug\Tema1.Form1.resources
+D:\FACULTA\an3\SEM2\II\Lab\Lab2\Tema1\obj\Debug\Tema1.Properties.Resources.resources
+D:\FACULTA\an3\SEM2\II\Lab\Lab2\Tema1\obj\Debug\Tema1.csproj.GenerateResource.cache
+D:\FACULTA\an3\SEM2\II\Lab\Lab2\Tema1\obj\Debug\Tema1.csproj.CoreCompileInputs.cache
+D:\FACULTA\an3\SEM2\II\Lab\Lab2\Tema1\obj\Debug\Tema1.exe
+D:\FACULTA\an3\SEM2\II\Lab\Lab2\Tema1\obj\Debug\Tema1.pdb

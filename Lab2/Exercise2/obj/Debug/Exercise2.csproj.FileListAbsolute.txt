@@ -1,0 +1,11 @@
+D:\FACULTA\an3\SEM2\II\Lab\Lab2\Exercise2\bin\Debug\Exercise2.exe.config
+D:\FACULTA\an3\SEM2\II\Lab\Lab2\Exercise2\bin\Debug\Exercise2.exe
+D:\FACULTA\an3\SEM2\II\Lab\Lab2\Exercise2\bin\Debug\Exercise2.pdb
+D:\FACULTA\an3\SEM2\II\Lab\Lab2\Exercise2\obj\Debug\Exercise2.csproj.AssemblyReference.cache
+D:\FACULTA\an3\SEM2\II\Lab\Lab2\Exercise2\obj\Debug\Exercise2.csproj.SuggestedBindingRedirects.cache
+D:\FACULTA\an3\SEM2\II\Lab\Lab2\Exercise2\obj\Debug\Exercise2.Form1.resources
+D:\FACULTA\an3\SEM2\II\Lab\Lab2\Exercise2\obj\Debug\Exercise2.Properties.Resources.resources
+D:\FACULTA\an3\SEM2\II\Lab\Lab2\Exercise2\obj\Debug\Exercise2.csproj.GenerateResource.cache
+D:\FACULTA\an3\SEM2\II\Lab\Lab2\Exercise2\obj\Debug\Exercise2.csproj.CoreCompileInputs.cache
+D:\FACULTA\an3\SEM2\II\Lab\Lab2\Exercise2\obj\Debug\Exercise2.exe
+D:\FACULTA\an3\SEM2\II\Lab\Lab2\Exercise2\obj\Debug\Exercise2.pdb

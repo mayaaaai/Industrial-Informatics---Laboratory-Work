@@ -1,0 +1,15 @@
+D:\FACULTA\an3\SEM2\II\Lab\Lab1\Ex3\obj\Debug\net7.0\Ex3.csproj.AssemblyReference.cache
+D:\FACULTA\an3\SEM2\II\Lab\Lab1\Ex3\obj\Debug\net7.0\Ex3.GeneratedMSBuildEditorConfig.editorconfig
+D:\FACULTA\an3\SEM2\II\Lab\Lab1\Ex3\obj\Debug\net7.0\Ex3.AssemblyInfoInputs.cache
+D:\FACULTA\an3\SEM2\II\Lab\Lab1\Ex3\obj\Debug\net7.0\Ex3.AssemblyInfo.cs
+D:\FACULTA\an3\SEM2\II\Lab\Lab1\Ex3\obj\Debug\net7.0\Ex3.csproj.CoreCompileInputs.cache
+D:\FACULTA\an3\SEM2\II\Lab\Lab1\Ex3\bin\Debug\net7.0\Ex3.exe
+D:\FACULTA\an3\SEM2\II\Lab\Lab1\Ex3\bin\Debug\net7.0\Ex3.deps.json
+D:\FACULTA\an3\SEM2\II\Lab\Lab1\Ex3\bin\Debug\net7.0\Ex3.runtimeconfig.json
+D:\FACULTA\an3\SEM2\II\Lab\Lab1\Ex3\bin\Debug\net7.0\Ex3.dll
+D:\FACULTA\an3\SEM2\II\Lab\Lab1\Ex3\bin\Debug\net7.0\Ex3.pdb
+D:\FACULTA\an3\SEM2\II\Lab\Lab1\Ex3\obj\Debug\net7.0\Ex3.dll
+D:\FACULTA\an3\SEM2\II\Lab\Lab1\Ex3\obj\Debug\net7.0\refint\Ex3.dll
+D:\FACULTA\an3\SEM2\II\Lab\Lab1\Ex3\obj\Debug\net7.0\Ex3.pdb
+D:\FACULTA\an3\SEM2\II\Lab\Lab1\Ex3\obj\Debug\net7.0\Ex3.genruntimeconfig.cache
+D:\FACULTA\an3\SEM2\II\Lab\Lab1\Ex3\obj\Debug\net7.0\ref\Ex3.dll
